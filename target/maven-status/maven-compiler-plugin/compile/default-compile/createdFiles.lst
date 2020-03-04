@@ -1,0 +1,4 @@
+com/qa/client/RestClient.class
+com/qa/util/TestUtil.class
+com/qa/data/Users.class
+com/qa/base/TestBase.class

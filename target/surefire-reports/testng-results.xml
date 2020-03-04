@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-03T12:19:44 PST" name="Command line suite" finished-at="2020-03-03T12:19:45 PST" duration-ms="1336">
+    <groups>
+    </groups>
+    <test started-at="2020-03-03T12:19:44 PST" name="Command line test" finished-at="2020-03-03T12:19:45 PST" duration-ms="1336">
+      <class name="restapi.PostAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:restapi.PostAPITest@77f99a05]" started-at="2020-03-03T12:19:44 PST" name="setUp" finished-at="2020-03-03T12:19:44 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="postAPITest()[pri:0, instance:restapi.PostAPITest@77f99a05]" started-at="2020-03-03T12:19:44 PST" name="postAPITest" finished-at="2020-03-03T12:19:45 PST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITest -->
+      </class> <!-- restapi.PostAPITest -->
+      <class name="restapi.GetAPITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:restapi.GetAPITest@63440df3]" started-at="2020-03-03T12:19:45 PST" name="setUp" finished-at="2020-03-03T12:19:45 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAPITestWithHeaders()[pri:1, instance:restapi.GetAPITest@63440df3]" started-at="2020-03-03T12:19:45 PST" name="getAPITestWithHeaders" finished-at="2020-03-03T12:19:45 PST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithHeaders -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:restapi.GetAPITest@63440df3]" started-at="2020-03-03T12:19:45 PST" name="setUp" finished-at="2020-03-03T12:19:45 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAPITestWithoutHeaders()[pri:1, instance:restapi.GetAPITest@63440df3]" started-at="2020-03-03T12:19:45 PST" name="getAPITestWithoutHeaders" finished-at="2020-03-03T12:19:45 PST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithoutHeaders -->
+      </class> <!-- restapi.GetAPITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
